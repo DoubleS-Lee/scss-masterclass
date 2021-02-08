@@ -4,7 +4,6 @@
   justify-content: space-around;
   height: 100vh;
   flex-wrap: wrap;
-  align-content: space-around;
 }
 
 .child {
@@ -13,4 +12,13 @@
   width: 200px;
   color: white;
   font-size: 50px;
+}
+
+.child:nth-child(2) {
+  background: black;
+  flex-shrink: 2;
+}
+
+.child:nth-child(3) {
+  flex-shrink: 3;
 }
