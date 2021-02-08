@@ -1,24 +1,16 @@
 .father {
-  display: flex;
-  /* main axis */
-  justify-content: space-around;
-  height: 100vh;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 100px 50px 300px;
+  gap: 10px;
 }
 
 .child {
   background: blue;
-  height: 200px;
-  width: 200px;
+  flex-basis: 30%;
   color: white;
   font-size: 50px;
-}
-
-.child:nth-child(2) {
-  background: black;
-  flex-shrink: 2;
-}
-
-.child:nth-child(3) {
-  flex-shrink: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
