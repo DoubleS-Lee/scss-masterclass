@@ -3,6 +3,7 @@
   /* main axis */
   justify-content: space-around;
   height: 100vh;
+  flex-wrap: wrap;
 }
 
 .child {
@@ -11,14 +12,4 @@
   width: 200px;
   color: white;
   font-size: 50px;
-}
-
-.child:nth-child(1) {
-  align-self: center;
-  order: 2;
-}
-
-.child:nth-child(2) {
-  align-self: flex-end;
-  order: 0;
 }
