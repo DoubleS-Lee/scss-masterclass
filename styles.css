@@ -10,8 +10,7 @@
 
 .header {
   background-color: #2ecc71;
-  align-self: center;
-  justify-self: start;
+  place-self: center start;
 }
 .content {
   background-color: #3498db;
