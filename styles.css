@@ -3,7 +3,8 @@
   gap: 10px;
   color: white;
   /* grid-template-columns: 100px 100px; */
-  grid-template-columns: max-content min-content;
+  /* grid-template-columns: max-content min-content; */
+  grid-template-columns: repeat(auto-fit, minmax(20px, max-content));
   grid-auto-rows: 100px;
   margin-bottom: 30px;
 }
