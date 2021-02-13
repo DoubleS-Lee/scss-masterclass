@@ -1,6 +1,13 @@
+@import "_variables";
+
 body {
-  background: peru;
+  background: $bg;
   a {
     color: blue;
   }
+}
+
+h1 {
+  color: $bg;
+  font-size: $title;
 }
