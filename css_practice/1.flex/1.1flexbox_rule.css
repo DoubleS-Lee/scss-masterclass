@@ -1,0 +1,10 @@
+.wrapper {
+  display: flex;
+}
+
+.box {
+  background: blue;
+  height: 200px;
+  width: 200px;
+  color: white;
+}

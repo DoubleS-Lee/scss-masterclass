@@ -1,14 +1,104 @@
-@import "_mixins";
+// 3.1.1variables.html
+// @import "_variables";
 
-h1 {
-  color: red;
-  @include responsive("iphone") {
-    color: yellow;
-  }
-  @include responsive("iphone-l") {
-    font-size: 60px;
-  }
-  @include responsive("tablet") {
-    color: green;
-  }
-}
+// body {
+//   background: $bg;
+//   a {
+//     color: blue;
+//   }
+// }
+
+// h1 {
+//   color: $bg;
+//   font-size: $title;
+// }
+
+// ---------------------------------------------
+// 3.1.2nesting.html
+
+// @import "_variables";
+
+// h2 {
+//   color: $bg;
+// }
+
+// .box {
+//   margin-top: 20px;
+//   &:hover {
+//     background-color: green;
+//   }
+//   h2 {
+//     color: blue;
+//     &:hover {
+//       color: red;
+//     }
+//   }
+//   button {
+//     color: red;
+//   }
+// }
+
+// ---------------------------------------------
+// 3.2.1mixin.html
+
+// @import "_variables";
+// @import "_mixins";
+
+// a {
+//   margin-bottom: 10px;
+//   &:nth-child(odd) {
+//     @include link(blue);
+//   }
+//   &:nth-child(even) {
+//     @include link(red);
+//   }
+// }
+
+// ---------------------------------------------
+// 3.2.2mixin-if.html
+
+// @import "_variables";
+// @import "_mixins";
+
+// a {
+//   margin-bottom: 10px;
+//   &:nth-child(odd) {
+//     @include link("odd");
+//   }
+//   &:nth-child(even) {
+//     @include link("even");
+//   }
+// }
+
+// ---------------------------------------------
+// 3.3extends.html
+
+// @import "_buttons";
+
+// a {
+//   @extend %button;
+//   text-decoration: none;
+// }
+
+// button {
+//   @extend %button;
+//   border: none;
+// }
+
+// ---------------------------------------------
+// 3.4mixinn@contents.html
+
+// @import "_mixins";
+
+// h1 {
+//   color: red;
+//   @include responsive("iphone") {
+//     color: yellow;
+//   }
+//   @include responsive("iphone-l") {
+//     font-size: 60px;
+//   }
+//   @include responsive("tablet") {
+//     color: green;
+//   }
+// }

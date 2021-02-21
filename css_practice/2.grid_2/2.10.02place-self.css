@@ -1,0 +1,25 @@
+.grid {
+  display: grid;
+  gap: 10px;
+  height: 100vh;
+  background: grey;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(4, 100px);
+  place-content: end center;
+}
+
+.header {
+  background-color: #2ecc71;
+  place-self: center start;
+}
+.content {
+  background-color: #3498db;
+}
+
+.nav {
+  background-color: #8e44ad;
+}
+
+.footer {
+  background-color: #f39c12;
+}

@@ -1,0 +1,15 @@
+.father {
+  display: flex;
+  /* main axis */
+  justify-content: space-around;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+.child {
+  background: blue;
+  height: 200px;
+  width: 200px;
+  color: white;
+  font-size: 50px;
+}

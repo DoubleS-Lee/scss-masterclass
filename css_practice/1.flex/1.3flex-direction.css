@@ -1,0 +1,17 @@
+.wrapper {
+  display: flex;
+  /* axis 방향 변경 */
+  flex-direction: column;
+  /* main axis */
+  justify-content: space-around;
+  /* cross axis */
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  background: blue;
+  height: 200px;
+  width: 200px;
+  color: white;
+}
